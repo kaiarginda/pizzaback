@@ -16,7 +16,6 @@ const PORT = process.env.PORT || 5000;
 //     useUnifiedTopology: true,
 //   }
 // );
-
 app.use(cors({ credentials: true, origin: "https://pizza-5zit.onrender.com" }));
 app.use(express.json()); // Add this line to parse JSON in the request body
 app.use(cookieParser());
